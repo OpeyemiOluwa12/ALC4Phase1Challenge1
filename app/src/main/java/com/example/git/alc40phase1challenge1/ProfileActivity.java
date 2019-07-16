@@ -11,13 +11,7 @@ public class ProfileActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
-        initializeDisplay();
     }
 
-    private void initializeDisplay(){
-        final RecyclerView recyclerNotes = findViewById(R.id.profileList);
-        LinearLayoutManager noteLayoutManager = new LinearLayoutManager(this);
-        recyclerNotes.setLayoutManager(noteLayoutManager);
 
-    }
 }

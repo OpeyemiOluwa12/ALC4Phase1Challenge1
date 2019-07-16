@@ -16,7 +16,7 @@
         android:fontFamily="sans-serif-condensed"
         android:text="Welcome to ALC 4.0"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="46sp"
+        android:textSize="36sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -33,6 +33,7 @@
         android:onClick="viewAbout"
         android:text="About ALC"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/cardview_light_background"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -52,6 +53,7 @@
         android:onClick="viewProfile"
         android:text="My Profile"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/cardview_light_background"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -61,8 +63,11 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/andelaLogo"
-        tools:layout_editor_absoluteX="92dp" />
+        app:srcCompat="@drawable/andelalogo" />
 </android.support.constraint.ConstraintLayout>
